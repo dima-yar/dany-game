@@ -1,0 +1,36 @@
+# 🎮 Dany: Digital Edition — Technical Specification
+
+## 🧠 Project Overview  
+A digital adaptation of the role-based board game *Dany*.  
+Initially a Windows Forms prototype in C#, later ported to .NET MAUI for Windows, Android, and iOS.  
+Supports both local and online multiplayer modes.
+
+## ⚙️ Technologies  
+- Windows Forms (prototype)  
+- .NET MAUI (cross-platform)  
+- C#  
+- Online: TCP/UDP or SignalR  
+
+## 🎲 Game Description  
+- 3–8 players  
+- One player is Dany 😈, others are secondary personalities 🧠  
+- Dany’s goal: mislead without getting caught  
+- Others’ goal: guess correctly and expose Dany  
+
+## 📱 Main Screens  
+- **Menu**: Start game, settings, rules 📖  
+- **Lobby**: Player list, mode selection 👥  
+- **Gameplay**: Phases of card selection, clue building, discussion, guess  
+- **Final Phase**: “Final Twist” vote and reveal  
+
+## 🔑 Key Features  
+- Secret role assignment  
+- Card decks: Memory, Idea, Choice, Personality  
+- Turn-based gameplay with role rotation  
+- Local and online multiplayer support  
+
+## 🛠 Development Phases  
+1. Windows Forms prototype with local play  
+2. Add online multiplayer, full game logic  
+3. Port to .NET MAUI for mobile and cross-platform  
+
